@@ -65,6 +65,7 @@
 		0D44BB721E537110000930E0 /* XMPPStringPrep.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D44BB641E537110000930E0 /* XMPPStringPrep.m */; };
 		0D44BB731E537110000930E0 /* XMPPTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D44BB651E537110000930E0 /* XMPPTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0D44BB741E537110000930E0 /* XMPPTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D44BB661E537110000930E0 /* XMPPTimer.m */; };
+		65A6470B2091B85B00CB30F8 /* MUC-Sub in Resources */ = {isa = PBXBuildFile; fileRef = 65A6470A2091B85B00CB30F8 /* MUC-Sub */; };
 		D91D42431FD9DAC90064FD27 /* XMPPPresence+XEP_0319.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91D42421FD9DAC90064FD27 /* XMPPPresence+XEP_0319.swift */; };
 		D91D42441FD9DAC90064FD27 /* XMPPPresence+XEP_0319.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91D42421FD9DAC90064FD27 /* XMPPPresence+XEP_0319.swift */; };
 		D91D42451FD9DAC90064FD27 /* XMPPPresence+XEP_0319.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91D42421FD9DAC90064FD27 /* XMPPPresence+XEP_0319.swift */; };
@@ -1506,6 +1507,7 @@
 		0D44BB641E537110000930E0 /* XMPPStringPrep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMPPStringPrep.m; sourceTree = "<group>"; };
 		0D44BB651E537110000930E0 /* XMPPTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPPTimer.h; sourceTree = "<group>"; };
 		0D44BB661E537110000930E0 /* XMPPTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMPPTimer.m; sourceTree = "<group>"; };
+		65A6470A2091B85B00CB30F8 /* MUC-Sub */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "MUC-Sub"; sourceTree = "<group>"; };
 		D91D42421FD9DAC90064FD27 /* XMPPPresence+XEP_0319.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XMPPPresence+XEP_0319.swift"; sourceTree = "<group>"; };
 		D91D42471FD9DCAA0064FD27 /* Date+XEP_0082.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+XEP_0082.swift"; sourceTree = "<group>"; };
 		D9268BAA1F9EB0BB009A37C7 /* XMPPMessage+XEP_0313.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XMPPMessage+XEP_0313.h"; sourceTree = "<group>"; };
@@ -2170,6 +2172,7 @@
 				D9DCD1211E6250920010D1C7 /* CoreDataStorage */,
 				D9DCD1251E6250920010D1C7 /* FileTransfer */,
 				D9DCD12C1E6250920010D1C7 /* GoogleSharedStatus */,
+				65A6470A2091B85B00CB30F8 /* MUC-Sub */,
 				D9DCD12F1E6250920010D1C7 /* OMEMO */,
 				D9DCD1401E6250930010D1C7 /* ProcessOne */,
 				D9DCD1431E6250930010D1C7 /* Reconnect */,
@@ -3946,6 +3949,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65A6470B2091B85B00CB30F8 /* MUC-Sub in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
